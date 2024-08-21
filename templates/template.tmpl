@@ -1,0 +1,63 @@
+<body>
+
+
+
+
+
+
+<table class="table">
+
+
+    <thead>
+
+
+    <tr>
+
+
+        <th scope="col">Generator</th>
+
+
+        <th scope="col">Preview</th>
+
+
+    </tr>
+
+
+    </thead>
+
+
+    <tbody>
+
+
+    {{range .keys}}
+
+
+    <tr>
+
+
+        <td><a href="/image/{{.}}">{{.}}</a></td>
+
+
+        <td><a href="/image/{{.}}"><img style="width: 100px;height:86px" src="/image/{{.}}"></img></a></td>
+
+
+    </tr>
+
+
+    {{end}}
+
+
+
+
+
+
+    </tbody>
+
+
+</table>
+
+
+</body>
+
+
+

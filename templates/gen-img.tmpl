@@ -1,0 +1,18 @@
+<body>
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">ID</th>
+			<th scope="col">Generated Image</th>
+		</tr>
+	</thead>
+	<tbody>
+	{{range .keys}}
+		<tr>
+			<td>{{.}}</td>
+			<td><img style="width: 100px;height:86px" src="/new/load/{{.}}"></img></td>
+		</tr>
+	{{end}}
+	</tbody>
+</table>
+</body>
